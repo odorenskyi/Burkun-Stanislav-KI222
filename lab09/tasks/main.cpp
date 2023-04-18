@@ -5,6 +5,12 @@ using namespace std;
 
 int s_calculation(int x, int y, int z, int s)
 {
+    cout << "Enter x:";
+    cin >> x;
+    cout << "Enter y:";
+    cin >> y;
+    cout << "Enter z:";
+    cin >> z;
 
     s = pow(x, 2) - pow(y, 3) + sqrt(pow(y, x)) + 3.14;
 
